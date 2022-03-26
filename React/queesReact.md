@@ -36,7 +36,7 @@
 
 <p>La estructura de una aplicacion de React es bastante mas compleja, aunque sencilla de entender.</p>
 
-<p>Para utilizar el renderizado dinamico y escribir en JSX, a extension de JS que permite escribir una sintaxis similar a&nbsp;HTML evitando la sintaxis clasica(es decir document.getElement... bla bla bla), necesito de una Construccion(Build).</p>
+Para utilizar el renderizado dinamico y escribir en JSX[^jsx], a extension de JS que permite escribir una sintaxis similar a&nbsp;HTML evitando la sintaxis clasica(es decir document.getElement... bla bla bla), necesito de una Construccion(Build).
 
 <p>Para esto necesitamos de una herramienta que haga la magia de traducir nuestro codigo al mismo tiempo que permite levantar un server para probar nuestra aplicacion mientras desarrollamos. Existen varias alternativas :</p>
 
@@ -91,3 +91,5 @@
 <h2>React Moderno - Hooks</h2>
 
 <p>saas</p>
+
+[^jsx]:https://github.com/sebastiap/SebaAprendiendo/edit/main/React/JSX.md
