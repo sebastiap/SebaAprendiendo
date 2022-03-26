@@ -1,8 +1,8 @@
 import './App.css';
 import React from "react";
 
-//Componentes
-import Mybutton from './components/Mybutton';
+//Components
+import Button from './components/Mybutton';
 var numberOfClicks = 0;
 
 function clickFunction () {
