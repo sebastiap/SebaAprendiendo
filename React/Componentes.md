@@ -40,10 +40,12 @@
 <p>Si quisiera tambien saludar a Walter, podria hacer otra invocacion con el siguiente tag:<br />
 &lt;Welcome name=&quot;Walter&quot; /&gt; y React interpretaria que quiero hacer lo mismo pero con Walter.</p>
 
+Los props, no solo pueden recibir valores de variables si no que pueden recibir funciones. Esto permite que un componente , reciba de su padre el codigo que debe ejecutar.
+
 <p>Esto es solo una demostracion del gran poder que tienen los componentes en React. La documentacion oficial de React , la verdad que esta muy clara y no sere yo quien lo escriba mejor que ellos, asi que aqui les dejo el link para investigar mas:</p>
 
 <p>https://es.reactjs.org/docs/components-and-props.html</p>
 
-<p><strong>Agur!</strong></p>
+
 
 <p>&nbsp;</p>
