@@ -1,11 +1,13 @@
 import React from "react";
 
-function myButton(props) {
+const myButton = (props) =>  {
 
      return (
-      <button onClick={props.onClick}>
-          'I am a button'
+       <div>
+      <button onClick={props.whenClicked}>
+          Im a Button
       </button>
+      </div>
   );
 }
 
