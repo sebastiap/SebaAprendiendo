@@ -15,7 +15,7 @@ function clickFunction () {
 function App() {
 
   return (
-        <Mybutton Onclick={clickFunction}/>
+        <Mybutton onClick={clickFunction}/>
   );
 }
 export default App;
