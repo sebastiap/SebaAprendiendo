@@ -2,8 +2,7 @@
 
 <p>React es una <em>libreria </em>para <strong>lado del cliente</strong>(client-side) de <ins><strong>Javascript</strong></ins>.</p>
 
-<p>Es una libreria basada en componentes, declarativo (en oposicion a javascript que es imperativo) y orientado a las interfases de usuario.</p>
-
+Es una libreria basada en componentes[^componentes], declarativo (en oposicion a javascript que es imperativo) y orientado a las interfases de usuario.
 <h2>Caracteristicas</h2>
 
 <p>React trabaja evitando el submit. Tradicionalmente, las aplicaciones Web, recibian un click y el usuario esperaba a que una nueva pagina se carge. Es decir, una accion generaba un Request y el browser cargaba una nueva pagina HTML. Con React esto se realiza dinamicamente, sin refrescar la pagina</p>
@@ -56,11 +55,11 @@ Para utilizar el renderizado dinamico y escribir en JSX[^jsx], a extension de JS
 
 <p>npm install&nbsp;downloads a package and it&#39;s dependencies.</p>
 
-<p>npm install&nbsp;can be run with or without arguments.</p>
+<p>npm install&nbsp; puede ejecutarse con o sin argumentos.</p>
 
-<p>When run without arguments,&nbsp;npm install&nbsp;downloads dependencies defined in a&nbsp;<strong>package.json</strong>&nbsp;file and generates a&nbsp;<strong>node_modules</strong>&nbsp;folder with the installed modules.</p>
+<p>Si se ejecuta sin argumentos, ,&nbsp;npm install&nbsp; instalara todas las dependencias definidad en <strong>package.json</strong>&nbsp; y generara la carpeta <strong>node_modules</strong>&nbsp;con los componentes instalados.</p>
 
-<p>It&#39;s important that&nbsp;npm install&nbsp;is run in the same directory as the&nbsp;<strong>package.json</strong>&nbsp;file.</p>
+<p>Importante: npm install se ejecute en el mismo directorio donde se encuentra el archivo <strong>package.json</strong>.</p>
 
 <p>El comando basico para crear una aplicacion React es el siguiente:</p>
 
@@ -90,6 +89,18 @@ Para utilizar el renderizado dinamico y escribir en JSX[^jsx], a extension de JS
 
 <h2>React Moderno - Hooks</h2>
 
-<p>saas</p>
+Actualmente, los componentes de clase estan en desuso y en su lugar se utilizan los componentes funciones con una funcionalidad que brinda React, llamada Hooks.
+¿Cuándo debería usar un Hook? Por ejemplo, antes para agregar estado a un componente, antes había que crear una clase. Ahora puedes usar un Hook dentro de un componente de función existente. ¡Vamos a hacerlo ahora mismo!
 
+## ¿Qué es un Hook? 
+Un Hook es una función especial que permite “conectarse” a características de React.
+
+### useState
+useState es un Hook que te permite añadir el estado de React a un componente de función. Al agregar el estado a una variable, React rastrea los cambios y vuelve a renderizar el virtual DOM para reflejar cada cambio de estado.
+
+
+
+### useEffect
+useEffect permite llevar a cabo efectos secundarios en componentes funcionales. Es decir, si se cumple alguna condicion, ejecuto ciertas acciones.
 [^jsx]:https://github.com/sebastiap/SebaAprendiendo/edit/main/React/JSX.md
+[^componentes]: https://github.com/sebastiap/SebaAprendiendo/blob/main/React/Componentes.md
