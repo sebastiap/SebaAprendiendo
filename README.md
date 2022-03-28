@@ -16,9 +16,13 @@ El proyecto estara dividido por tecnologia/herramienta y tendra 2 tipos de archi
 * Archivos de ejemplo en formato js,jsx,py segun corresponda al lenguaje utilizado
 
 Con esto se tendra no solo la explicacion teorica sino tambien un ejemplo de su uso en la practica.
----
-Agradezco a **Programador X**[^x] ya que su video inspiro este proyecto.
+Por motivos didacticos , todos los comentarios asi como documentacion estara en español ya que la idea es que sea una fuente de repaso y al mismo tiempo de traduccion de material. El publico objetivos son amigos, estudiantes y por supuesto yo mismo.
 
+Agradecimientos Finales
+---
+* Agradezco a **Programador X**[^x] ya que su video inspiro este proyecto.
+* A todos los Cursos y Tutores de React que tuve a lo largo de estos ultimos años.
+* A todo aquel que este material pueda servirle.
 
 [^x]:https://www.youtube.com/watch?v=SaVjKvCapuI&list=WL&index=2
 [^md]:https://markdown.es/sintaxis-markdown/
