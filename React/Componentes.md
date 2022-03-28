@@ -42,10 +42,19 @@
 
 Los props, no solo pueden recibir valores de variables si no que pueden recibir funciones. Esto permite que un componente , reciba de su padre el codigo que debe ejecutar.
 
+## Componentes Reutilizables
+Con el metodo de renderizar listas[^renderlist] y pasando valores del componente padre al componente hijo, mediante atributos del props puedo crear componentes reutilizables. El componente hijo, se creara completando sus tags con valores relativos al props. 
+En el componente padre, el map se encargara de renderizar uno a uno los elementos hijos con los valores de un array provisto por nosotros.
+
+En el ejemplo de Routing tenemos el ejemplo de las secciones que muestra el componente Hero:
+https://github.com/sebastiap/SebaAprendiendo/blob/main/React/ejemplos/routing/src/components/section.jsx
+https://github.com/sebastiap/SebaAprendiendo/blob/main/React/ejemplos/routing/src/components/layout/hero.jsx
+## Pero hay mas!
+
 <p>Esto es solo una demostracion del gran poder que tienen los componentes en React. La documentacion oficial de React , la verdad que esta muy clara y no sere yo quien lo escriba mejor que ellos, asi que aqui les dejo el link para investigar mas:</p>
 
 <p>https://es.reactjs.org/docs/components-and-props.html</p>
 
 
 
-<p>&nbsp;</p>
+[^renderlist]:https://github.com/sebastiap/SebaAprendiendo/blob/main/React/renderizarLista.md
