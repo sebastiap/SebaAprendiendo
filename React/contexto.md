@@ -6,7 +6,7 @@ Con la necesidad de un estado global, nace lo que llamamos **context**, que func
 
 
 ## Solucion Nativa - Context
-Context es una herramienta brindada por React para el manejo de estado.
+Context es una herramienta brindada por React para el manejo de estado.[^useContext]
 
 ### Instalacion
 ~~~ 
@@ -43,7 +43,6 @@ const [userFavorites,setUserFavorites] = useState([])
 ~~~ 
 
 
-
 ## Aqui aparece Redux...
 **Redux** Es un paquete de mantenimiento de Estado muy conocido y utilizado mundialmente en millones de sitios.[^redux]
 
@@ -51,3 +50,4 @@ const [userFavorites,setUserFavorites] = useState([])
  * Por convension, se utiliza una carpeta de nombre **store** para almacenar los archivos que corresponden al manejo de estado.
  * Al declarar y asignar el contexto la constante debe comenzar su nombre con mayuscula , como todo **componente** de React.
 [^redux]:https://es.redux.js.org/
+[^useContext]:https://es.reactjs.org/docs/hooks-reference.html#usecontext
