@@ -31,7 +31,7 @@ function removeFavoriteHandler(favoriteId) {
     )
 }
 function itemIsFavoriteHandler(favoriteId) {
-    return userFavorites.some(Item => favoriteId === Item.id);
+    return userFavorites.some(Item => Item.id === favoriteId );
 }
     const context = {
         favorites:userFavorites,
