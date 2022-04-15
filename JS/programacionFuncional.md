@@ -2,9 +2,9 @@
 
 <p>Existen 3 m&eacute;todos principales para la programaci&oacute;n funcional en JavaScript:&nbsp;<strong>filter, map, reduce</strong>. Todos estos son m&eacute;todos aplicables a los arrays..</p>
 
-<p>El m&eacute;todo&nbsp;<code><strong>filter()</strong></code>&nbsp;crea un nuevo array con todos los elementos que cumplan la condici&oacute;n implementada por la funci&oacute;n dada.</p>
+<p>El m&eacute;todo&nbsp;<code><strong>filter()</strong></code>&nbsp;crea un nuevo array con todos los elementos que cumplan la condici&oacute;n implementada por la funci&oacute;n dada. Cambia el tamaño del array original</p>
 
-<p>El m&eacute;todo&nbsp;<code><strong>map()</strong></code>&nbsp;crea un nuevo array con los resultados de la llamada a la funci&oacute;n indicada aplicados a cada uno de sus elementos.</p>
+<p>El m&eacute;todo&nbsp;<code><strong>map()</strong></code>&nbsp;crea un nuevo array con los resultados de la llamada a la funci&oacute;n indicada aplicados a cada uno de sus elementos.No cambia el tamaño del array original</p>
 
 <p>El m&eacute;todo&nbsp;<code><strong>reduce()</strong></code>&nbsp;ejecuta una funci&oacute;n&nbsp;<strong>reductora</strong>&nbsp;sobre cada elemento de un array, devolviendo como resultado un &uacute;nico valor.</p>
 
@@ -45,5 +45,7 @@
 <p>El motivo principal de que se hayan creado estas funciones, es porque se tratan de operaciones muy comunes, Es mas, diria que son operaciones basicas de cualquir web o programa moderno y si son tan comunes, porque no tener algo bien practico para estos casos???</p>
 
 <p>Despues de todo, si necesitamos algo especifico, siempre tenemos el viejo y confiable <em><strong>forEach</strong></em>.</p>
-
-<p>Buena Semana!</p>
+## Ejemplos:
+https://github.com/sebastiap/SebaAprendiendo/blob/main/JS/ejemplos/map.js
+## Referencias:
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map
