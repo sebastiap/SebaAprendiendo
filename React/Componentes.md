@@ -49,6 +49,10 @@ En el componente padre, el map se encargara de renderizar uno a uno los elemento
 En el ejemplo de Routing tenemos el ejemplo de las secciones que muestra el componente Hero:
 https://github.com/sebastiap/SebaAprendiendo/blob/main/React/ejemplos/routing/src/components/section.jsx
 https://github.com/sebastiap/SebaAprendiendo/blob/main/React/ejemplos/routing/src/components/layout/hero.jsx
+
+## Renderizado condicional
+Cubriendo entre llaves la sintaxis y utilizando el ternary operator podemos cambiardinamicamente el contenido de un componente.
+
 ## Pero hay mas!
 
 <p>Esto es solo una demostracion del gran poder que tienen los componentes en React. La documentacion oficial de React , la verdad que esta muy clara y no sere yo quien lo escriba mejor que ellos, asi que aqui les dejo el link para investigar mas:</p>
