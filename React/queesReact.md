@@ -87,12 +87,17 @@ Para utilizar el renderizado dinamico y escribir en JSX[^jsx], a extension de JS
 
 <p>Vue.js es una mezcla de los 2 anteriores. Se basa en componentes UI y tiene mas herramientas incorporadas por defecto. No hace falta tanto recurrir a la comunidad.</p>
 
-<h2>React Moderno - Hooks</h2>
+## Elementos de React
+Los elementos de React se escriben como elementos normales de HTML .Podes escribir cualquier elemento HTML valido en React, esto es porque como comentaba anteriormente estamos escribiendo en realidad en JSX.  Mas detalle en: [JSX](https://github.com/sebastiap/SebaAprendiendo/blob/main/React/JSX.md)
+
+
+
+## React Moderno - Hooks 
 
 Actualmente, los componentes de clase estan en desuso y en su lugar se utilizan los componentes funciones con una funcionalidad que brinda React, llamada Hooks.
 ¿Cuándo debería usar un Hook? Por ejemplo, antes para agregar estado a un componente, antes había que crear una clase. Ahora puedes usar un Hook dentro de un componente de función existente. ¡Vamos a hacerlo ahora mismo!
 
-## ¿Qué es un Hook? 
+### ¿Qué es un Hook? 
 Un Hook es una función especial que permite “conectarse” a características de React.
 
 ### useState
