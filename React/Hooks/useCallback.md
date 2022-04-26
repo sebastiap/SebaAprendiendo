@@ -53,6 +53,7 @@ Los hooks useCallback y useMemo son similares. La principal diferencia es que us
 
 ## Referencias
 
-https://www.freecodecamp.org/news/the-react-cheatsheet/
-https://www.w3schools.com/react/react_usecallback.asp
-https://www.w3schools.com/react/react_memo.asp
+* https://www.freecodecamp.org/news/the-react-cheatsheet/
+* https://www.w3schools.com/react/react_usecallback.asp
+* https://www.w3schools.com/react/react_memo.asp
+* https://stackoverflow.com/questions/56910036/when-to-use-usecallback-usememo-and-useeffect
