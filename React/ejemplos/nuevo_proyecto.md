@@ -1,4 +1,11 @@
 # Creacion de un nuevo proyecto React
+Daremos como ejemplo la creacion de una SPA(Single Page Aplication) , un tipo de pagina sencilla que puede crearse facilmente con React.
+
+## Aplicación de página única
+Una aplicación de página única (single-page application) es una aplicación que carga una única página HTML y todos los componentes necesarios (tales como JavaScript y CSS) para que se ejecute la aplicación. Cualquier interacción con la página o páginas subsecuentes no requiere hacer solicitudes al servidor lo que significa que la página no es recargada.
+
+## Create React App
+Create React App configura tu ambiente de desarrollo de forma que puedas usar las últimas características de Javascript, brindando una buena experiencia de desarrollo, y optimizando tu aplicación para producción.
 
 - El comando basico para crear una aplicacion React es el siguiente:
   <code>
