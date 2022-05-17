@@ -64,3 +64,50 @@ Es una variante avanzada de definicion del Layout. Funciona estableciendo areas 
 						 "footer footer footer";
 	}
 ```
+
+## Aplicando estilos (grid-column y grid-row)
+
+### grid-column-start
+Establece en que columna comienza la clase a la cual aplico esta propiedad. Acepta valores positivos y negativos. El valor hace referencia a la "linea separadora de la columna" donde comienza, es decir considerando la cuadricula, el inicio de la columna. Si solo se pone esta propiedad , se toma como fin la proxima columna
+```
+grid-column-start:2;
+```
+En este ejemplo el fin de la columna seria 3.
+
+### grid-column-end
+Junto con grid-column-start establece en que columna termina la clase a la cual aplico esta propiedad. Formo un desde hasta del estilo.
+
+### grid-column
+Ambas propiedades pueden declararse juntas con el atajo grid-column
+```
+grid-column: 4 / 6
+```
+o bien
+```
+grid-column: 4 / span 2
+```
+### span
+En lugar de definir un elemento en la cuadrícula basado en la posicion inicial y final, puedes definirlo basado en la longitud de columnas deseada usando la palabra clave span. Ten presente que span solo funciona con valores positivos.
+El siguiente ejemplo, le dira que quiero que el estilo termine en 5 columnas despues del comienzo.
+```
+grid-column-end: span 5;
+```
+
+También puedes usar la palabra clave span con grid-column-start para establecer la anchura del elemento en relación a la posición final.
+En el siguiente ejemplo, le dira que quiero que el estilo empiece en 3 columnas antes del final.
+```
+grid-column-end: span 5;
+```
+### grid-row
+Las mismas reglas que se aplican sobre grid-column, se aplican en grid-row para el eje Y.
+
+### grid-area como abreviatura
+Esta propiedad, puede utilizarse tambien para pasarle 4 valores (2 correspondientes a grid-column y otros 2 correspondientes a grid-row ).
+Los cuatro valores se pasan separados por barras oblicuas en el siguiente orden: grid-row-start, grid-column-start, grid-row-end, seguido de grid-column-end.
+
+```
+grid-area: 1 / 2 / 4/ 6  
+```
+
+## Fraccion
+CSS Grid también introduce una nueva medida, la fracción fr. Cada unidad fr asigna una porción del espacio disponible. Por ejemplo, si dos elementos están establecidos a 1fr y 3fr respectivamente el espacio se divide en 4 porciones iguales; el primer elemento ocupa 1/4 del espacio y el segundo elemento los 3/4 restantes.
