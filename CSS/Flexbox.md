@@ -44,22 +44,33 @@ Son los elementos hijos de un Flexbox Container. Se ajustan de forma flexible a 
 ### flex-grow
 Configura el facto de crecimiento cuando hay espacio sobrante. Solo sirve para el main axis.  Posee valor 0 por defecto y puede usar decimales.
 
-## flex-shrink
+### flex-shrink
 Configura el facto de decrecimiento cuando hay espacio faltante. Solo sirve para el main axis.  Posee valor 1 por defecto. 
+
+### flex-basis
+ Determina el tamaño base en el main axis. Determina el tamaño antes de que flex-grow o flex-shrink intervengan. Predomina sobre height o width (sobreescribe el que corresponderia al main-axis).
+ 
+ ### flex-basis
+Es un atajo que engloba a flex-grow,flex-shrink y flex-basis , en ese orden.
+Por defecto viene asi:
+```
+flex: 0 1 auto;
+```
 
 ## Alineacion
 ### order
 Permite cambiar el orden de los elementos en el main axis sin cambiar el html. Order puede tener valores negativos. Por defecto todos los elementos tienen un order 0.
 
 ### align-self
-Funciona de manera similar a align-items pero del lado del elemento.
-## Otros
+Funciona de manera similar a align-items pero del lado del elemento. Funciona sobre el cross-axis.
 
-###
+### margin
+Se puede configurar el margen individual de cada elemento y se adaptara a flexbox.
+
 
 ### Practica
 * http://www.flexboxdefense.com/
 * https://flexboxfroggy.com/#es
 
 ### Otros juegos Interesantes de CSS
-https://codepip.com/games/
+* https://codepip.com/games/
