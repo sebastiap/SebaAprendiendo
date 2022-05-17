@@ -4,7 +4,7 @@
 Css Grid es un layout de css que, al igual que las tablas, nos permite alinear elementos en columnas y filas de forma facil. Esta orientado a garantizar una estructura solida y predecible dentro de nuestro sitio, Flexbox en cambio, sirve para cuando queremos alinear elementos de forma horizontal o vertical de manera simple.
 
 ## Grid-Template
-Son 2 propiedades , uno para las filas y otras para las columnas, que definen la estructura que tendra el Grid (Cantidad y tamaño de las filas y columnas respectivamente).
+Son una serie de propiedades , para configurar las filas y  las columnas, que definen la estructura que tendra el Grid (grid-template-rows Cantidad y tamaño de las filas y grid-template-columns para las columnas respectivamente).
 
 ## grid-template-rows
 ```
@@ -14,6 +14,8 @@ Son 2 propiedades , uno para las filas y otras para las columnas, que definen la
 ```
 	grid-template-columns: repeat(3, 1fr);
 ```
+## grid-template
+Es una propiedad abreviada que contiene grid-template-rows y grid-template-columns .
 
 ## Grid-Gap
 Se utiliza para establecer un tamaño de separacion predeterminado entre columnas o filas.
@@ -23,8 +25,11 @@ Se utiliza para establecer un tamaño de separacion predeterminado entre columna
 ```
 ### Grid-column
 Atajos para definir donde empieza o termine un elemento del grid.
-
-
+```
+grid-template:50% 50% / 200px
+```
+Esto creará una cuadrícula con dos filas que ocuparán el 50% del alto cada una, y una columna que será 200 píxeles de ancho. 
+Es decir el primer valor corresponde al eje Y y el segundo valor al eje X.
 ### Ejemplo de grid-column simple
 ```
 	grid-column: span 2; // El elemento ocupara 2 columnas
@@ -111,3 +116,4 @@ grid-area: 1 / 2 / 4/ 6
 
 ## Fraccion
 CSS Grid también introduce una nueva medida, la fracción fr. Cada unidad fr asigna una porción del espacio disponible. Por ejemplo, si dos elementos están establecidos a 1fr y 3fr respectivamente el espacio se divide en 4 porciones iguales; el primer elemento ocupa 1/4 del espacio y el segundo elemento los 3/4 restantes.
+Cuando algunas columnas son establecidas en píxeles o em/rem, porcentajes o ems, cualquier otra columna establecida con fr dividirá el espacio restante.
