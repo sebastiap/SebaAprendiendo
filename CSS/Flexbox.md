@@ -38,5 +38,28 @@ baseline: Alinea a la altura del texto de todos los elementos.
 Tambien configura la alineacion del eje secundario (cross-axis) pero solo si se esta usando un flex-wrap. Alinea a los elementos con los mismos valores que align-items pero maneja la distribucion de los espacios con respecto a las multiples lineas del eje principal.
 
 # Flexbox Items
-Son los elementos hijos de un Flexbox Container. Se ajustan de forma flexible a las condiciones y dimensiones de su contenedor.
+Son los elementos hijos de un Flexbox Container. Se ajustan de forma flexible a las condiciones y dimensiones de su contenedor. Estos elementos tienen propiedades propias, que permitan personaliar aun mas la distribucion de los elementos.
 
+## Tranformacion
+### flex-grow
+Configura el facto de crecimiento cuando hay espacio sobrante. Solo sirve para el main axis.  Posee valor 0 por defecto y puede usar decimales.
+
+## flex-shrink
+Configura el facto de decrecimiento cuando hay espacio faltante. Solo sirve para el main axis.  Posee valor 1 por defecto. 
+
+## Alineacion
+### order
+Permite cambiar el orden de los elementos en el main axis sin cambiar el html. Order puede tener valores negativos. Por defecto todos los elementos tienen un order 0.
+
+### align-self
+Funciona de manera similar a align-items pero del lado del elemento.
+## Otros
+
+###
+
+### Practica
+* http://www.flexboxdefense.com/
+* https://flexboxfroggy.com/#es
+
+### Otros juegos Interesantes de CSS
+https://codepip.com/games/
