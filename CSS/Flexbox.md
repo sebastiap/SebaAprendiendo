@@ -72,8 +72,8 @@ https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Conc
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ### Practica
-
 * http://www.flexboxdefense.com/
+* https://codingfantasy.com/games/flexboxadventure/play
 * https://flexboxfroggy.com/#es
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills
 
