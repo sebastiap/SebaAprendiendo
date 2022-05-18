@@ -117,3 +117,8 @@ grid-area: 1 / 2 / 4/ 6
 ## Fraccion
 CSS Grid también introduce una nueva medida, la fracción fr. Cada unidad fr asigna una porción del espacio disponible. Por ejemplo, si dos elementos están establecidos a 1fr y 3fr respectivamente el espacio se divide en 4 porciones iguales; el primer elemento ocupa 1/4 del espacio y el segundo elemento los 3/4 restantes.
 Cuando algunas columnas son establecidas en píxeles o em/rem, porcentajes o ems, cualquier otra columna establecida con fr dividirá el espacio restante.
+
+
+## Juegos de Practica
+* https://cssgridgarden.com/#es
+* https://codingfantasy.com/games/css-grid-attack/play
