@@ -67,10 +67,16 @@ Funciona de manera similar a align-items pero del lado del elemento. Funciona so
 ### margin
 Se puede configurar el margen individual de cada elemento y se adaptara a flexbox.
 
+### Teoria
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ### Practica
+
 * http://www.flexboxdefense.com/
 * https://flexboxfroggy.com/#es
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills
 
 ### Otros juegos Interesantes de CSS
+* https://medium.com/@codingk8/7-tools-to-practice-your-flexbox-skills-2624bbdcb321
 * https://codepip.com/games/
