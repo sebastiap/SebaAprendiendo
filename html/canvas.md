@@ -20,3 +20,7 @@
  
  ## Diferencias con img
  Podemos pensar a canvas como un lienzo vacio. Es como crear una imagen en blanco. A diferencia de ```<img>``` , no tiene atributos src ya que espera que el dibujo se realice mediante javascript. Los unicos atributos que se pasan al tag , son id (para identificarlo en javascript) , width y height (para definir dimensiones distintas a las que vienen por defecto).
+
+ ## Canvas-API
+ Utilizar como ejemplo los brindados en :
+ https://github.com/mattdesl/canvas-sketch/blob/master/docs/README.md
