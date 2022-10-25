@@ -6,7 +6,7 @@ Un Hook personalizado es una función de JavaScript cuyo nombre comienza con "us
 
 ## Hooks personales
 * useCopy
-* useBottom
+* usePageBottom
 
 ## Bibliografia y Ejemplos
 
