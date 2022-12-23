@@ -6,7 +6,7 @@ const refContainer = useRef(initialValue);
 `useRef` devuelve un objeto *ref* mutable cuya propiedad `.current` se inicializa con el argumento pasado (`initialValue`). El objeto devuelto se mantendrá persistente durante la vida completa del componente.
 
 ## Referencias (ref)
-Este concepto en react lo que permite es referenciar elementos del dom di HTML con una referencia. Para utilizar esta referencia, utilizo el hook useRef .
+Este concepto en react lo que permite es referenciar elementos del dom de HTML con una referencia. Para utilizar esta referencia, utilizo el hook useRef .
 
 ## useRef - Hook
 import {useRef} from 'react';
