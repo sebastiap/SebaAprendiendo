@@ -25,3 +25,11 @@ Son 2 tecnicas para encarar el problema de visualizar un sitio en distintos disp
 Algunos ejemplos:
 https://webdesignerwall.com/trends/inspiration-fluid-responsive-design
 
+## Practica
+
+### Juegos para dominar CSS
+* https://flukeout.github.io/# (CSS en general)
+* http://www.flexboxdefense.com/ (Flexbox)
+* https://flexboxfroggy.com/#es (Flexbox)
+* https://cssgridgarden.com/#es (Grid)
+* https://codingfantasy.com/games/css-grid-attack/play (Grid)
