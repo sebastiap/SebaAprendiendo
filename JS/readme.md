@@ -18,3 +18,10 @@ Es posible que se encuentren con ejemplos y código en internet utilizando la pa
 * Mutabilidad Vs Reasignabilidad
 Si el valor de una constante es algo "mutable", como un array o un objeto, se pueden cambiar los valores internos de sus elementos.
 NO REASIGNABLE ≠ INMUTABLE
+
+* Template Strings
+Hay que utilizar el simbolo ` rodeando el string. Las variables pueden ser incluidas en el string rodeandola con ${variable}. 
+Ejemplo:
+~~~
+`Hola el valor de la variable es ${variable}`
+~~~
