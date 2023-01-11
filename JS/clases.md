@@ -16,7 +16,7 @@ class Rectangulo {
 ```
 
 ## Constructor
-l método constructor es un método especial para crear e inicializar un objeto creado con una clase. Solo puede haber un método especial con el nombre "constructor" en una clase.
+El método constructor es un método especial para crear e inicializar un objeto creado con una clase. Solo puede haber un método especial con el nombre "constructor" en una clase.
 Para detalle completo ver:
 https://github.com/sebastiap/SebaAprendiendo/blob/main/JS/constructor.md
 
