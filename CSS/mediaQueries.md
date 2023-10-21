@@ -19,6 +19,9 @@ Se utiliza la palabra reservada "media" para indicar las condiciones que debe cu
 </style>
 ```
 
+ * Si utilizo **max-width** , el media query afectara todas las resoluciones por debajo del valor de ancho especificado.
+ * Si utilizo **min-width** , el media query afectara todas las resoluciones por encima del valor de ancho especificado.
+
 
 ## Fuente 
 * https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries
