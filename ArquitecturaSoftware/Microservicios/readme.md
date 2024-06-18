@@ -19,6 +19,10 @@ En si mismo, el Ingress no tiene poder sobre el sistema sino que depende de la c
 ## Service Mesh
 Un service mesh maneja el trafico entre servicios de Kubernetes (Conocidos como service-to-service or east‑west traffic) y es usado comunmente para conseguir la encriptacion end-to-end encryption (E2EE).
 
+## Escalar un proyecto
+Escalar Verticalmente: Agregar memoria , procesamiento y espacio de almacenamiento al servidor.
+Escalar Horizontalmente : Agregar mas servidores.
+
 ### Fuente
  * https://www.cloudflare.com/es-es/learning/cdn/glossary/reverse-proxy/
  * https://traefik.io/blog/reverse-proxy-vs-ingress-controller-vs-api-gateway/
