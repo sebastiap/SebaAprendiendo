@@ -34,6 +34,13 @@ En si mismo, el Ingress no tiene poder sobre el sistema sino que depende de la c
 
 ### Service Mesh
 Un service mesh maneja el trafico entre servicios de Kubernetes (Conocidos como service-to-service or east‑west traffic) y es usado comunmente para conseguir la encriptacion end-to-end encryption (E2EE).
+Principalmente, estandariza la comunicacion entre servicios.
+
+Los conceptos de API GATEWAY, LOAD BALANCER, Service Mesh son conceptos similares y que por momentos pueden sobreponerse uno al otro. Lo que hat que tener en cuenta es que :
+ * API GATEWAY esta enfocado en redireccionar por RUTA distintas APIS.
+ * LOAD BALANCER esta enfocado en redireccionar CARGA DE TRABAJO entre SERVIDORES.
+ * Service Mesh maneja el trafico dentro de un KLUSTER.
+ * El PROXY INVERSO es un concepto mas general, los 3 anteriores pueden ser un proxy inverso o bien interactuar con uno.
 
 ## Escalar un proyecto
 Escalar Verticalmente: Agregar memoria , procesamiento y espacio de almacenamiento al servidor.
