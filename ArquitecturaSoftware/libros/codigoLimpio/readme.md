@@ -9,4 +9,8 @@ En terminos generales, el codigo limpio significa :
  * Facil de mantener
  * Respetar los principios SOLID
 
+## Nombres 
 
+* Usar nombres significativos/descriptivos.
+* Evitar confusiones y terminos que puedan dar a una interpretacion erronea.
+* Usar nombres distintivos, que permitan diferenciar un objeto de otro y sin palabras redundantes en lo posible.
