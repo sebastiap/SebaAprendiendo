@@ -24,4 +24,10 @@ En terminos generales, el codigo limpio significa :
 * Agregar contexto a las variables relacionadas.
 * Evitar prefijos, usar escritura estandar segun el objeto para facilitar la lectura:
   - Clases y Objetos - Sustantivos con todas las palabras en mayusculas.
-  - Metodos - Verbos o
+  - Metodos - Verbos o frases verbales
+  - 
+## Funciones
+ * Las funciones deben ser pequeñas.
+ * Utilizar identacion para facilitar la legibilidad.
+ * Deben estar dedicadas a una sola cosa y hacerla bien.
+ * 
