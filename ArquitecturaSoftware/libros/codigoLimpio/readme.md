@@ -30,4 +30,11 @@ En terminos generales, el codigo limpio significa :
  * Las funciones deben ser pequeñas.
  * Utilizar identacion para facilitar la legibilidad.
  * Deben estar dedicadas a una sola cosa y hacerla bien.
- * 
+ * Que manejen un solo nivel de abstraccion.
+ * Que sean legibles de arriba hacia abajo.
+ * Utilizar Switch aplicando polimorfismo e interfases para abstraerlo y que solo este en un lugar.
+ * Que tengan la menor cantidad posible de argumentos. Pueden aceptar Objetos que agrupen varios elementos, pero como un solo parametro.
+ * Que no tengan efectos secundarios.
+ * No te repitas(DRY)
+ * No pases comandos como expresiones(Command Query Separation)
+ * Usar excepciones en lugar de codigos de error para tratar situaciones.
