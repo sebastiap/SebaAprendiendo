@@ -38,3 +38,21 @@ En terminos generales, el codigo limpio significa :
  * No te repitas(DRY)
  * No pases comandos como expresiones(Command Query Separation)
  * Usar excepciones en lugar de codigos de error para tratar situaciones.
+
+## Comentarios
+ * Hay que evitarlos en lo posible, si ponemos uno significa que nuestro codigo no se explica por si mismo.
+ * Los comentarios no compensan codigo malo
+ * Utilizar el codigo para explicarnos (El nombre de una funcion puede ser mas explicativo que unas lineas de codigo sueltas).
+ * Algunos comentarios si son buenos o necesarios
+### Comentarios Utiles
+   - Comentarios legales o del negocio
+   - Comentarios informativos cuando el nombre de la funcion no corresponde o no puede aclarar
+   - Comentarios dirigidos a ayudar a otro programador o explicar porque se tomo cierto camino o solucion
+   - Para clarificar, ya sea un resultado o parametro o bien facilitar la lectura
+   - Advertencias
+   - Comentarios TODO
+   - Para dar importancia a una porcion de codigo
+   - En el caso de APIs , los documentos de uson son extremadamente utiles.
+
+### Malos Comentarios
+  -
