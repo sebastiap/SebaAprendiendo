@@ -44,15 +44,24 @@ En terminos generales, el codigo limpio significa :
  * Los comentarios no compensan codigo malo
  * Utilizar el codigo para explicarnos (El nombre de una funcion puede ser mas explicativo que unas lineas de codigo sueltas).
  * Algunos comentarios si son buenos o necesarios
+   
 ### Comentarios Utiles
    - Comentarios legales o del negocio
-   - Comentarios informativos cuando el nombre de la funcion no corresponde o no puede aclarar
+   - Comentarios informativos cuando el nombre de la funcion no puede aclarar su comportamiento
    - Comentarios dirigidos a ayudar a otro programador o explicar porque se tomo cierto camino o solucion
    - Para clarificar, ya sea un resultado o parametro o bien facilitar la lectura
-   - Advertencias
    - Comentarios TODO
    - Para dar importancia a una porcion de codigo
+   - Advertencias
    - En el caso de APIs , los documentos de uson son extremadamente utiles.
 
 ### Malos Comentarios
-  -
+  - Comentarios redundantes
+  - Comentarios que "hagan ruido" , distraigan, sean confusos poco claros
+  - Comentarios a modo de historial/changelog ( Para eso se utiliza los controladores de versiones)
+  - Comentarios redundantes
+  - Comentarios que pueden ser reemplazados por un buen nombre de variable o funcion
+  - Marcadores de posicion o Titulos de secciones
+  - Comentar codigo que deberia borrarse
+  - Comentarios referidos a otra seccion de codigo que no esta cerca
+  - Comentarios que dan demasiada informacion
