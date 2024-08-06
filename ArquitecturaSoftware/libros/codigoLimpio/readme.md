@@ -65,3 +65,10 @@ En terminos generales, el codigo limpio significa :
   - Comentar codigo que deberia borrarse
   - Comentarios referidos a otra seccion de codigo que no esta cerca
   - Comentarios que dan demasiada informacion
+
+## Formateo
+ * Legibilidad de Arriba hacia abajo
+ * Martener la cercania entre partes del codigo relacionado
+ * No hacer separaciones o comentarios que afecten la legibilidad
+ * Identar el codigo para agrupar porciones de codigo.
+ * Respectar las reglas que establezca el equipo de trabajo
