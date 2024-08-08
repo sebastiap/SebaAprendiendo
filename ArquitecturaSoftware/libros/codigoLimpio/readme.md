@@ -72,3 +72,10 @@ En terminos generales, el codigo limpio significa :
  * No hacer separaciones o comentarios que afecten la legibilidad
  * Identar el codigo para agrupar porciones de codigo.
  * Respectar las reglas que establezca el equipo de trabajo
+
+## Objetos y Estructura de Datos
+ * Abstraccion de Datos
+ * Anti Simetria entre Objetos y Estructura de datos.
+      - Los objetos esconden sus datos a traves de abstracciones y exponen sus funciones para tratar los datos.
+      - Las estructuras de datos exponen los datos y no tienen funciones significativas
+ * 
