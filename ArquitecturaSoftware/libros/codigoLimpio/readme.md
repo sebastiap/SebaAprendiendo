@@ -78,4 +78,5 @@ En terminos generales, el codigo limpio significa :
  * Anti Simetria entre Objetos y Estructura de datos.
       - Los objetos esconden sus datos a traves de abstracciones y exponen sus funciones para tratar los datos.
       - Las estructuras de datos exponen los datos y no tienen funciones significativas
- * 
+ * La ley de Demeter : Cada unidad debe tener un limitado conocimiento sobre otras unidades y solo conocer y hablar con aquellas unidades estrechamente relacionadas.
+ * Uso de DTO : Clases con variables publicas y sin funciones para administrar la tranferencia de datos.
