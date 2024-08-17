@@ -82,10 +82,16 @@ En terminos generales, el codigo limpio significa :
  * Uso de DTO : Clases con variables publicas y sin funciones para administrar la tranferencia de datos.
   
 ## Manejo de Errores
-* Xomo se menciono previamente en el modulo funciones, se refuerza que es conveniente usar excepciones en lugar de codigos de error para tratar situaciones.
+* Como se menciono previamente en el modulo funciones, se refuerza que es conveniente usar excepciones en lugar de codigos de error para tratar situaciones.
 * Escribi tu modulo try-catch antes que nada.
 * Utilizar excepciones no checkeadas (Fallan en tiempo de ejecucion), para evitar romper el principio de Abierto Cerrado tener que preparar a los metodos para los throws de sus hijos.
 * Dar contexto con las excepciones.
 * Las excepciones deben ser informativas para quien la llama.
 * Defini el flujo normal de la aplicacion
 * Evita en lo posible pasar null o devolver null. Esto nos hace propenso a errores.
+
+## Limites
+* Aprender a usar codigo de terceros. Como usuario buscamos ganar tiempo y usar lo justo y necesario.
+* Aprender log4j
+* Escribir los test de las APIS ya que no solo aprendemos a pegarle a los endpoints si no que nos ayudan a entender.
+* Limites claros: Las partes del codigo que interactuan con terceros estan bien identificadas para facilitar los cambios y extension.
