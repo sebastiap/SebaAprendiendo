@@ -95,3 +95,21 @@ En terminos generales, el codigo limpio significa :
 * Aprender log4j
 * Escribir los test de las APIS ya que no solo aprendemos a pegarle a los endpoints si no que nos ayudan a entender.
 * Limites claros: Las partes del codigo que interactuan con terceros estan bien identificadas para facilitar los cambios y extension.
+
+## Test
+* Las 3 leyes del Test Driven development:
+  -Primera Ley: No debes escribir codigo productivo hasta que hayas escrito escrito una prueba unitaria fallida.
+  -Segunda ley: No puedes escribir más pruebas unitarias de las que sean suficientes para fallar, y no compilarlas es fallar.
+  -Tercera ley: No puedes escribir más código de producción del suficiente para pasar la prueba actualmente fallida.
+* Mantener los test prolijos.
+* Cuanto mayor sea la cobertura de su prueba, menos tu miedo a cambiar el codigo.
+* Doble estándar: El código dentro de la API de prueba tiene un conjunto de estándares de ingeniería diferente al código de producción. Debe seguir siendo simple, conciso y expresivo, pero no necesita ser tan eficiente como
+código de producción.
+* Un Assert por test.
+* Un concepto por test.
+* Siguen las reglas F.I.R.S.T. :
+  - Fast
+  - Independientes
+  - Repetibles
+  - Self-Validating
+  - Timely (Hecho al mismo tiempo que el codigo que prueban)
