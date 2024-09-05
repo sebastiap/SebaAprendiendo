@@ -113,3 +113,10 @@ código de producción.
   - Repetibles
   - Self-Validating
   - Timely (Hecho al mismo tiempo que el codigo que prueban)
+ 
+## Diseño Emergente
+Debe seguir estas 4 reglas:
+ * Siempre correr todos los tests
+ * Refactoring para que no haya duplicados
+ * Refactoring para mejorar la expresividad
+ * Refactoring para mantener la menor cantidad de clases y metodos.
