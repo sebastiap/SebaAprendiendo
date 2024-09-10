@@ -120,3 +120,57 @@ Debe seguir estas 4 reglas:
  * Refactoring para que no haya duplicados
  * Refactoring para mejorar la expresividad
  * Refactoring para mantener la menor cantidad de clases y metodos.
+
+## Code smells 
+Son partes del codigo que si bien no son errores... "huelen mal".
+* Comentarios:
+  - Informacion inadecuada (Informacion que deberia esta en el repositorio o manejador de versiones)
+  - Comentarios Obsoletos (Desactualizada, Redundante, dificil de mantener)
+  - Comentarios Redundantes
+  - Comentarios mal escritos
+  - Codigo comentado
+* Ambiente:
+  - Contruir requiere mas de un paso (Deberia ser lo mas sencillo posible)
+  - El Test requiere mas de un paso (Deberia ser lo mas sencillo posible)
+* Funciones:
+  - Demasiados argumentos
+  - Argumentos de Salida
+  - Argumentos bandera
+  - Funciones que nunca se usan
+* General
+  - Mas de un lenguaje en un mismo archivo.
+  - La respuesta obvia no esta implementada.
+  - Comportamientos incorrecto en los bordes.
+  - Tests,funcionalidades y pruebas fallidad desabilitadas.
+  - Duplicacion.
+  - Codigo al nivel equivocado de abstraccion.
+  - Clases bases depende de sus derivados.
+  - Demasiadas interfaces.
+  - Codigo muerto: codigo que no se ejecuta.
+  - Separacion vertical: Las variables deberian ir cerca de donde se usan.
+  - Inconsistencia : Resolver el mismo problema de distintas maneras.
+  - Desorden.
+  - Acoples Artificiales o innecesarios
+  - Feature Envy: Las clases deben estar interesadas en sus propias variables y metodos, no en la de los demas.
+  - Condicionales como Argumentos
+  - Intenciones ocultas
+  - Responsabilidades mal asignadas
+  - Funciones estaticas innecesarias
+  - Usar variables explicatorias
+  - Funciones o variables que no son claras en lo que hacen.
+  - No entender el algoritmo.
+  -  Make Logical Dependencies Physical...................................298
+  -  Usar condicionales en lugar de polimorfismo.
+  -  No seguir convenciones estandar.
+  -  Utilizar "numeros magicos" en lugar de CONSTANTES con nombres descriptivos.
+  -  Ser poco preciso.
+  -  Structure over Convention
+  -  No Encapsular Conditionales.
+  - Usar conditionales negativos.
+  - Las funciones deben hacer una sola cosa.
+  - Esconder acoples temporales.
+  - Tomar decisiones arbitrarias.
+  - Encapsular condiciones limites (cuando una variable tiene un +1 o un incremental es mejor encapsular en una variable)
+  - Las funciones deberian descender solo un nivel de abstraccion
+  - Mantener la configuracion a simple vista
+  - Navegacion Transitiva (No seguir la Ley de Demeter)
