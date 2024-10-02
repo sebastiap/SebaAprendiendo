@@ -32,5 +32,47 @@ Causa: Invisibilidad
 Solucion: Red de contencion psicologia -> Auspiciar un lugar seguro para expresarse
 
 ### Conflicto
+Se intenta evitar el conflicto tratando de mantener una armonia artificial provocando 2 ironias:
+ * Priorizar la eficiencia --> Se usa como excusa la eficiencia para agravar el problema.
+ * No dañar las relaciones interpresonales --> Se cuida la relacion en el momento con el peligro de causar una explosion a futuro.
+
+Herramienta:
+Comunicacion no violenta --> Mas detalle en el archivo [Comunicacion No Violenta](https://github.com/sebastiap/SebaAprendiendo/tree/main/libros/ComunicacionNoViolenta)
+
 Causa: Armonia Artificial
 Solucion: Excavadora -> Persona que trata de llegar al fondo del conflicto y lograr que se hable del mismo.
+
+### Falta de compromiso
+
+Produce:
+ * Ambiguedades de direccion y prioridades
+ * Se pierden oportunidades por buscar certidumbre
+ * Se vuelve una y otra vez a las mismas discuciones
+
+Herramientas:
+ * Cascada de Decisiones
+ * Fechas Limite
+ * Contingencias
+
+Causa: Ambiguedad
+Solucion: Claridad y Aceptacion
+
+### Evasion de Responsabilidades
+
+Causa: Estandares bajos
+Solucion: Pedir y rendir cuentas mutuamente
+
+Herramientas:
+Reuniones Periodicas
+
+### Falta de atencion a los resultados
+
+Herramienta:
+Recompensas al Equipo
+
+Causa: Estatus y Ego
+Solucion: Enfocarse en los logros colectivos
+
+Practica comparativa:
+Ejercicio Teatral Zip Zap Boing (Logro Individual)
+Juego "The Mind" (Logro Grupal)
