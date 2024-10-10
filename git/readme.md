@@ -3,6 +3,22 @@
 ## Repositorio de Codigo Git
 En esta seccion guardare borradores,herramientas y comandos para utilizar git eficientemente.
 
+### Notas especiales
+> [!NOTE]  
+> Con esta anotacion brindo una nota a tener en cuenta.
+
+> [!TIP]
+> Con esta anotacion brindo un consejo para tener un mejor resultado.
+
+> [!IMPORTANT]  
+> Con esta anotacion brindo una nota de algo importante.
+
+> [!WARNING]  
+> Con esta anotacion brindo una nota a tener en cuenta para evitar problemas.
+
+> [!CAUTION]
+> Con esta anotacion brindo una nota a tener en cuenta y sus consecuencias negativas.
+
 ## Estructura principal
 
 ### Directorio .git
