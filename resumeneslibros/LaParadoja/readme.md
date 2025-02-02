@@ -26,3 +26,5 @@ Un relato sobre la verdadera esencia del liderazgo
  * Voluntad
 
 ## Opinion Personal
+Me resultaron utiles muchos de los conceptos. Principalmente el tema de que el lider busca la harmonia y armar un ambiente para que las cosas surjan. Al mismo tiempo debe ser "mas humano" que los demas y tratar de seguir adelante a pesar de las falencias del equipo.
+Todo cambio se empieza de a poco y es un compromiso mantenerlo. Finalmente, es importante tener una mision, lo que nos obliga a concentrarlo y darlo todo y finalmente tener trascendencia.
